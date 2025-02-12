@@ -65,9 +65,6 @@ app.put('/tasks/:id', (req, res) => {
   if (title !== undefined) task.title = title;
   if (completed !== undefined) task.completed = completed;
 
-
-
-  
   res.json(task);
 });
 
