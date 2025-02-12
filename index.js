@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // Middleware to parse JSON requests
 app.use(express.json());
-app.
+
 // In-memory task storage
 let tasks = [
   { id: 1, title: 'Buy groceries', completed: false },
