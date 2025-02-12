@@ -77,6 +77,9 @@ app.delete('/tasks/:id', (req, res) => {
     return res.status(404).json({ error: 'Task not found' });
   }
 
+
+
+  
   const deletedTask = tasks.splice(taskIndex, 1);
   res.json(deletedTask[0]);
 });
